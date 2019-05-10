@@ -13,9 +13,9 @@ import junit.framework.TestSuite;
  */
 public class AppTest extends TestCase {
 	
-	public String testStringToLower() {
-		String test = StringToNumber.stringToLower("test");
-		String expected = "TEST";
+	public void testStringToLower() {
+		String test = StringToNumber.stringToLower("TEST");
+		String expected = "test";
 		assertEquals(expected, test);
 	}
 	
