@@ -29,4 +29,10 @@ public class AppTest extends TestCase {
 		assertEquals(exp, test);
 	}
 	
+	public void testStringToNumString() {
+		String exp = "20 8 9 19 -64 14 5 20 2 21 9 12 4 5 18 -64 1 19 19 5 19 19 13 5 14 20 -64 9 19 -64 23 1 25 -64 20 15 15 -64 5 1 19 25 -50";
+		String test = StringToNumber.stringToNumString("This NETbuilder assessment is way too easy.");
+		assertEquals(exp, test);
+	}
+	
 }
