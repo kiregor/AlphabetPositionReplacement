@@ -13,8 +13,10 @@ import junit.framework.TestSuite;
  */
 public class AppTest extends TestCase {
 	
-	public String stringToLower(String in) {
-		return in.toLowerCase();
+	public String testStringToLower() {
+		String test = StringToNumber.stringToLower("test");
+		String expected = "TEST";
+		assertEquals(expected, test);
 	}
 	
 }
